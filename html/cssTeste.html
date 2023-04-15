@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="shortcut icon" href="../img/LogoB.ico" type="image/x-icon">
+    <title>Teste de CSS3</title>
+</head>
+<body  id="home">
+    <aside id="aside">
+        <img src="../img/LogoW.png" id="logo">
+        <nav id="menu">
+            
+            <ul>
+              <li><a href="../index.php">Home</a></li>
+              <li>
+                <a href="../html/conteudos.html">Conteudos</a>
+                <ul>
+                  <li><a href="../html/htmlC.html">HTML5</a></li>
+                  <li><a href="../html/cssC.html">CSS3</a></li>
+                  <li><a href="../html/phpC.html">PHP</a></li>
+                  <li><a href="../html/jsC.html">Javascript</a></li>
+                </ul>
+              </li>
+              <li><a href="../html/teste.html">Testes</a></li>
+              <li><a href="#Footer" onclick="descerFooter()">Contato</a></li>
+              <li><a href="../php/perfil.php" id="cadastro">Perfil</a></li>
+              <li><a href="../php/sair.php">Sair</a></li>
+            </ul>
+          </nav>
+          
+        <h1 id="tAConteudo">Teste seu conhecimento em CSS3</h1>
+        <p id="pAConteudo">Tendo lido o conteudo e entendido ele, agora você irá testar seu conhecimento nessa linguagem. Abaixo haverão 10 perguntas sobre o texto de CSS3 com 3 alternativas cada e somente uma correta. Boa sorte!</p>
+    </aside>
+
+    <h1 id="titleCss">Teste de CSS3</h1>
+    <section id="corpoTeste">
+            <form action="../php/salvar_css.php" method="POST">
+                <h2 class="pergunta1" id="aT">1. O que é CSS?</h2>
+                <input type="radio" id="alter" name="p1" value="a"><a id="a">Uma linguagem de programação para criar páginas da web.</a> <br>
+                <input type="radio" id="alter" name="p1" value="b"><a id="a">Uma linguagem de estilo para adicionar estilos visuais às páginas da web.<br></a>
+                <input type="radio" id="alter" name="p1" value="c"><a id="a">Uma linguagem para criar aplicativos móveis.</a>
+
+                <h2 class="pergunta2" id="aT">2. O que as regras CSS consistem?</h2>
+                <input type="radio" id="alter" name="p2" value="a" class="pergunta"><a id="a">Uma série de declarações.</a><br>
+                <input type="radio" id="alter" name="p2" value="b" class="pergunta"><a id="a">Um seletor e um conjunto de declarações.</a><br>
+                <input type="radio" id="alter" name="p2" value="c" class="pergunta"><a id="a">Um conjunto de propriedades.</a>
+
+                <h2 class="pergunta3" id="aT">3. O que é um seletor em CSS?</h2>
+                <input type="radio" id="alter" name="p3" value="a" class="pergunta"><a id="a">Um estilo de fonte.</a><br>
+                <input type="radio" id="alter" name="p3" value="b" class="pergunta"><a id="a">Uma propriedade visual.</a><br>
+                <input type="radio" id="alter" name="p3" value="c" class="pergunta"><a id="a">Um identificador que especifica qual elemento HTML a regra deve ser aplicada.</a>
+
+                <h2 class="pergunta4" id="aT">4. Como o CSS pode ser vinculado a uma página HTML?</h2>
+                <input type="radio" id="alter" name="p4" value="a" class="pergunta"><a id="a">Usando uma tag script.</a><br>
+                <input type="radio" id="alter" name="p4" value="b" class="pergunta"><a id="a">Usando uma tag style.</a><br>
+                <input type="radio" id="alter" name="p4" value="c" class="pergunta"><a id="a">Usando uma tag link.</a>
+
+                <h2 class="pergunta5" id="aT">5. O que as propriedades CSS podem ser usadas para criar?</h2>
+                <input type="radio" id="alter" name="p5" value="a" class="pergunta"><a id="a">Animações e transições.</a><br>
+                <input type="radio" id="alter" name="p5" value="b" class="pergunta"><a id="a">Arquivos de imagem.</a><br>
+                <input type="radio" id="alter" name="p5" value="c" class="pergunta"><a id="a">Funções matemáticas.</a>
+
+                <h2 class="pergunta6" id="aT">6. O que o CSS permite que os desenvolvedores criem para tornar o layout responsivo?</h2>
+                <input type="radio" id="alter" name="p6" value="a" class="pergunta"><a id="a">Imagens interativas.</a><br>
+                <input type="radio" id="alter" name="p6" value="b" class="pergunta"><a id="a">Animações complexas.</a><br>
+                <input type="radio" id="alter" name="p6" value="c" class="pergunta"><a id="a">Layouts que se adaptam a diferentes dispositivos e tamanhos de tela.</a>
+
+                <h2 class="pergunta7" id="aT">7. Qual é a vantagem de usar CSS para estilizar páginas da web?</h2>
+                <input type="radio" id="alter" name="p7" value="a" class="pergunta"><a id="a">Ele permite que os desenvolvedores criem layouts complexos.</a><br>
+                <input type="radio" id="alter" name="p7" value="b" class="pergunta"><a id="a">Ele separa o conteúdo da página de sua apresentação visual.</a><br>
+                <input type="radio" id="alter" name="p7" value="c" class="pergunta"><a id="a">Ele adiciona interatividade à página.</a>
+
+                <h2 class="pergunta8" id="aT">8. Qual é o objetivo principal do CSS?</h2>
+                <input type="radio" id="alter" name="p8" value="a" class="pergunta"><a id="a">Fornecer uma linguagem para criar aplicativos web.</a><br>
+                <input type="radio" id="alter" name="p8" value="b" class="pergunta"><a id="a">Adicionar funcionalidade aos elementos HTML.</a><br>
+                <input type="radio" id="alter" name="p8" value="c" class="pergunta"><a id="a">Estilizar elementos HTML e controlar a aparência da página.</a>
+
+                <h2 class="pergunta9" id="aT">9. Qual é o benefício de escrever CSS em um arquivo separado?</h2>
+                <input type="radio" id="alter" name="p9" value="a" class="pergunta"><a id="a">É mais fácil para os desenvolvedores iniciantes aprenderem.</a><br>
+                <input type="radio" id="alter" name="p9" value="b" class="pergunta"><a id="a">Torna mais fácil para os desenvolvedores manter e modificar a aparência da página.</a><br>
+                <input type="radio" id="alter" name="p9" value="c" class="pergunta"><a id="a">Faz com que a página carregue mais lentamente.</a>
+
+                <h2 class="pergunta10" id="aT">10. O que é uma tag <link>?</h2>
+                <input type="radio" id="alter" name="p10" value="a" class="pergunta"><a id="a">Uma tag HTML usada para criar links para outras páginas.</a><br>
+                <input type="radio" id="alter" name="p10" value="b" class="pergunta"><a id="a">Uma tag HTML usada para incluir arquivos de script na página.</a><br>
+                <input type="radio" id="alter" name="p10" value="c" class="pergunta"><a id="a">Uma tag HTML usada para vincular um arquivo CSS à página.</a><br><br><br>
+
+                <input type="submit" value="Enviar Respostas" id="testeButton">
+ 
+    </form>
+    </section>
+
+    <footer id="footerTeste">
+        <img src="../img/LogoW.png" id="logoFooter">
+        <a href="https://www.instagram.com/g4briel_far/"><img src="../img/insta.png" id="instaF"></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMhsLwKPdSgtDpMFBgZQVNcdWQKzGtkPPkcXHCjlrcXljXqwKRQLwpllzZztnTLLqGzsvV"><img src="../img/gmail.png" id="gmailF"></a>
+        <a href="https://github.com/devbiel12"><img src="../img/git.png" id="gitF"></a>
+        <p id="textFooter">©Gabriel Araújo 2023</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>

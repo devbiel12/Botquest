@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="shortcut icon" href="../img/LogoB.ico" type="image/x-icon">
+    <title>Teste de PHP</title>
+</head>
+<body  id="home">
+    <aside id="aside">
+        <img src="../img/LogoW.png" id="logo">
+        <nav id="menu">
+            
+            <ul>
+              <li><a href="../index.php">Home</a></li>
+              <li>
+                <a href="../html/conteudos.html">Conteudos</a>
+                <ul>
+                  <li><a href="../html/htmlC.html">HTML5</a></li>
+                  <li><a href="../html/cssC.html">CSS3</a></li>
+                  <li><a href="../html/phpC.html">PHP</a></li>
+                  <li><a href="../html/jsC.html">Javascript</a></li>
+                </ul>
+              </li>
+              <li><a href="../html/teste.html">Testes</a></li>
+              <li><a href="#Footer" onclick="descerFooter()">Contato</a></li>
+              <li><a href="../php/perfil.php" id="cadastro">Perfil</a></li>
+              <li><a href="../php/sair.php">Sair</a></li>
+            </ul>
+          </nav>
+          
+        <h1 id="tAConteudo">Teste seu conhecimento em PHP</h1>
+        <p id="pAConteudo">Tendo lido o conteudo e entendido ele, agora você irá testar seu conhecimento nessa linguagem. Abaixo haverão 10 perguntas sobre o texto de PHP com 3 alternativas cada e somente uma correta. Boa sorte!</p>
+    </aside>
+
+    <h1 id="titleCss">Teste de PHP</h1>
+    <section id="corpoTeste">
+            <form action="../php/salvar_php.php" method="POST">
+                <h2 class="pergunta1" id="aT">1. O que é PHP?</h2>
+                <input type="radio" id="alter" name="p1" value="a"><a id="a">Uma linguagem de programação para criar aplicativos desktop.</a> <br>
+                <input type="radio" id="alter" name="p1" value="b"><a id="a">Uma linguagem de programação para criar aplicativos mobile.<br></a>
+                <input type="radio" id="alter" name="p1" value="c"><a id="a">Uma linguagem de programação para criar aplicativos web dinâmicos e interativos.</a>
+
+                <h2 class="pergunta2" id="aT">2. Quando o PHP foi criado?</h2>
+                <input type="radio" id="alter" name="p2" value="a" class="pergunta"><a id="a">Em 1992.</a><br>
+                <input type="radio" id="alter" name="p2" value="b" class="pergunta"><a id="a">Em 1994.</a><br>
+                <input type="radio" id="alter" name="p2" value="c" class="pergunta"><a id="a">Em 1996.</a>
+
+                <h2 class="pergunta3" id="aT">3. Qual é a sintaxe do PHP semelhante a?</h2>
+                <input type="radio" id="alter" name="p3" value="a" class="pergunta"><a id="a">C e Python.</a><br>
+                <input type="radio" id="alter" name="p3" value="b" class="pergunta"><a id="a">C e Perl.</a><br>
+                <input type="radio" id="alter" name="p3" value="c" class="pergunta"><a id="a">Java e Ruby.</a>
+
+                <h2 class="pergunta4" id="aT">4. O que o PHP permite criar em uma página da web?</h2>
+                <input type="radio" id="alter" name="p4" value="a" class="pergunta"><a id="a">Páginas estáticas.</a><br>
+                <input type="radio" id="alter" name="p4" value="b" class="pergunta"><a id="a">Páginas interativas.</a><br>
+                <input type="radio" id="alter" name="p4" value="c" class="pergunta"><a id="a">Páginas somente de texto.</a>
+
+                <h2 class="pergunta5" id="aT">5. Com quais bancos de dados o PHP é compatível?</h2>
+                <input type="radio" id="alter" name="p5" value="a" class="pergunta"><a id="a">MySQL, Oracle e SQL Server.</a><br>
+                <input type="radio" id="alter" name="p5" value="b" class="pergunta"><a id="a">MySQL, Oracle e PostgreSQL.</a><br>
+                <input type="radio" id="alter" name="p5" value="c" class="pergunta"><a id="a">MySQL, SQL Server e MongoDB.</a>
+
+                <h2 class="pergunta6" id="aT">6. O que torna o PHP altamente personalizável e escalável?</h2>
+                <input type="radio" id="alter" name="p6" value="a" class="pergunta"><a id="a">A sintaxe semelhante a Perl.</a><br>
+                <input type="radio" id="alter" name="p6" value="b" class="pergunta"><a id="a">A compatibilidade com vários bancos de dados.</a><br>
+                <input type="radio" id="alter" name="p6" value="c" class="pergunta"><a id="a">A possibilidade de criar funções e bibliotecas personalizadas.</a>
+
+                <h2 class="pergunta7" id="aT">7. Quais tecnologias podem ser usadas com o PHP para criar aplicativos web ricos em recursos?</h2>
+                <input type="radio" id="alter" name="p7" value="a" class="pergunta"><a id="a">HTML, CSS e JavaScript.</a><br>
+                <input type="radio" id="alter" name="p7" value="b" class="pergunta"><a id="a">HTML, CSS e Python.</a><br>
+                <input type="radio" id="alter" name="p7" value="c" class="pergunta"><a id="a">HTML, CSS e Ruby.</a>
+
+                <h2 class="pergunta8" id="aT">8. O que é necessário para usar o PHP em um servidor?</h2>
+                <input type="radio" id="alter" name="p8" value="a" class="pergunta"><a id="a">Um ambiente de desenvolvimento integrado (IDE).</a><br>
+                <input type="radio" id="alter" name="p8" value="b" class="pergunta"><a id="a">Um editor de texto.</a><br>
+                <input type="radio" id="alter" name="p8" value="c" class="pergunta"><a id="a">Um servidor web que suporte PHP.</a>
+
+                <h2 class="pergunta9" id="aT">9. Qual é o papel de um IDE ou editor de texto no desenvolvimento em PHP?</h2>
+                <input type="radio" id="alter" name="p9" value="a" class="pergunta"><a id="a">Verificar a sintaxe do código PHP.</a><br>
+                <input type="radio" id="alter" name="p9" value="b" class="pergunta"><a id="a">Depurar o código PHP.</a><br>
+                <input type="radio" id="alter" name="p9" value="c" class="pergunta"><a id="a">Ambas as opções acima.</a>
+
+                <h2 class="pergunta10" id="aT">10. O que os recursos disponíveis online para aprender PHP incluem? <link>?</h2>
+                <input type="radio" id="alter" name="p10" value="a" class="pergunta"><a id="a">Tutoriais, cursos e documentação oficial.</a><br>
+                <input type="radio" id="alter" name="p10" value="b" class="pergunta"><a id="a">Tutoriais e cursos.</a><br>
+                <input type="radio" id="alter" name="p10" value="c" class="pergunta"><a id="a">Cursos e livros didáticos.</a><br><br><br>
+
+                <input type="submit" value="Enviar Respostas" id="testeButton">
+ 
+    </form>
+    </section>
+
+    <footer id="footerTeste">
+        <img src="../img/LogoW.png" id="logoFooter">
+        <a href="https://www.instagram.com/g4briel_far/"><img src="../img/insta.png" id="instaF"></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMhsLwKPdSgtDpMFBgZQVNcdWQKzGtkPPkcXHCjlrcXljXqwKRQLwpllzZztnTLLqGzsvV"><img src="../img/gmail.png" id="gmailF"></a>
+        <a href="https://github.com/devbiel12"><img src="../img/git.png" id="gitF"></a>
+        <p id="textFooter">©Gabriel Araújo 2023</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="shortcut icon" href="../img/LogoB.ico" type="image/x-icon">
+    <title>Teste de JS</title>
+</head>
+<body  id="home">
+    <aside id="aside">
+        <img src="../img/LogoW.png" id="logo">
+        <nav id="menu">
+            
+            <ul>
+              <li><a href="../index.php">Home</a></li>
+              <li>
+                <a href="../html/conteudos.html">Conteudos</a>
+                <ul>
+                  <li><a href="../html/htmlC.html">HTML5</a></li>
+                  <li><a href="../html/cssC.html">CSS3</a></li>
+                  <li><a href="../html/phpC.html">PHP</a></li>
+                  <li><a href="../html/jsC.html">Javascript</a></li>
+                </ul>
+              </li>
+              <li><a href="../html/teste.html">Testes</a></li>
+              <li><a href="#Footer" onclick="descerFooter()">Contato</a></li>
+              <li><a href="../php/perfil.php" id="cadastro">Perfil</a></li>
+              <li><a href="../php/sair.php">Sair</a></li>
+            </ul>
+          </nav>
+          
+        <h1 id="tAConteudo">Teste seu conhecimento em JS</h1>
+        <p id="pAConteudo">Tendo lido o conteudo e entendido ele, agora você irá testar seu conhecimento nessa linguagem. Abaixo haverão 10 perguntas sobre o texto de JS com 3 alternativas cada e somente uma correta. Boa sorte!</p>
+    </aside>
+
+    <h1 id="titleCss">Teste de JS</h1>
+    <section id="corpoTeste">
+            <form action="../php/salvar_js.php" method="POST">
+                <h2 class="pergunta1" id="aT">1. Qual é a principal característica do JavaScript?</h2>
+                <input type="radio" id="alter" name="p1" value="a"><a id="a">Capacidade de manipular o HTML e o CSS em tempo real</a> <br>
+                <input type="radio" id="alter" name="p1" value="b"><a id="a">Ser executado apenas no lado do servidor<br></a>
+                <input type="radio" id="alter" name="p1" value="c"><a id="a">Criar aplicativos móveis nativos</a>
+
+                <h2 class="pergunta2" id="aT">2. O que é possível desenvolver usando JavaScript?</h2>
+                <input type="radio" id="alter" name="p2" value="a" class="pergunta"><a id="a">Efeitos visuais e animações</a><br>
+                <input type="radio" id="alter" name="p2" value="b" class="pergunta"><a id="a">Banco de dados relacionais</a><br>
+                <input type="radio" id="alter" name="p2" value="c" class="pergunta"><a id="a">Sistemas operacionais</a>
+
+                <h2 class="pergunta3" id="aT">3. O que significa o fato de o JavaScript ser uma linguagem baseada em eventos?</h2>
+                <input type="radio" id="alter" name="p3" value="a" class="pergunta"><a id="a">Ele pode responder a ações do usuário, como clique de botões e rolagem da página</a><br>
+                <input type="radio" id="alter" name="p3" value="b" class="pergunta"><a id="a">Ele só pode ser executado em plataformas específicas</a><br>
+                <input type="radio" id="alter" name="p3" value="c" class="pergunta"><a id="a">Ele é uma linguagem de programação baseada em hardware</a>
+
+                <h2 class="pergunta4" id="aT">4. Em que plataformas o JavaScript é executado?</h2>
+                <input type="radio" id="alter" name="p4" value="a" class="pergunta"><a id="a">Desktops, dispositivos móveis e navegadores</a><br>
+                <input type="radio" id="alter" name="p4" value="b" class="pergunta"><a id="a">Apenas em desktops</a><br>
+                <input type="radio" id="alter" name="p4" value="c" class="pergunta"><a id="a">Apenas em dispositivos móveis</a>
+
+                <h2 class="pergunta5" id="aT">5. O que é possível comunicar usando JavaScript?</h2>
+                <input type="radio" id="alter" name="p5" value="a" class="pergunta"><a id="a">Servidores, permitindo a atualização de informações sem a necessidade de recarregar a página inteira</a><br>
+                <input type="radio" id="alter" name="p5" value="b" class="pergunta"><a id="a">Apenas com outros scripts JavaScript</a><br>
+                <input type="radio" id="alter" name="p5" value="c" class="pergunta"><a id="a">Apenas com servidores locais</a>
+
+                <h2 class="pergunta6" id="aT">6. O que é o Node.js?</h2>
+                <input type="radio" id="alter" name="p6" value="a" class="pergunta"><a id="a">Um ambiente de tempo de execução JavaScript do lado do servidor</a><br>
+                <input type="radio" id="alter" name="p6" value="b" class="pergunta"><a id="a">Um editor de texto para JavaScript</a><br>
+                <input type="radio" id="alter" name="p6" value="c" class="pergunta"><a id="a">Um framework para desenvolvimento de jogos em JavaScript</a>
+
+                <h2 class="pergunta7" id="aT">7. O que é uma biblioteca em JavaScript?</h2>
+                <input type="radio" id="alter" name="p7" value="a" class="pergunta"><a id="a">Um conjunto de funções pré-escritas para facilitar o desenvolvimento</a><br>
+                <input type="radio" id="alter" name="p7" value="b" class="pergunta"><a id="a">Um arquivo de configuração de servidor</a><br>
+                <input type="radio" id="alter" name="p7" value="c" class="pergunta"><a id="a">Um conjunto de modelos para criar páginas web</a>
+
+                <h2 class="pergunta8" id="aT">8. Qual é a importância da comunidade de JavaScript?</h2>
+                <input type="radio" id="alter" name="p8" value="a" class="pergunta"><a id="a">Contribui com bibliotecas e frameworks para tornar o desenvolvimento mais fácil e eficiente</a><br>
+                <input type="radio" id="alter" name="p8" value="b" class="pergunta"><a id="a">Limita o desenvolvimento de novas tecnologias</a><br>
+                <input type="radio" id="alter" name="p8" value="c" class="pergunta"><a id="a">Torna o JavaScript obsoleto em relação a outras linguagens de programação</a>
+
+                <h2 class="pergunta9" id="aT">9. Qual é a diferença entre JavaScript e outras linguagens de programação?</h2>
+                <input type="radio" id="alter" name="p9" value="a" class="pergunta"><a id="a">JavaScript é executado no lado do cliente, enquanto outras linguagens podem ser executadas tanto no lado do cliente quanto no lado do servidor</a><br>
+                <input type="radio" id="alter" name="p9" value="b" class="pergunta"><a id="a">JavaScript é a única linguagem que permite manipular HTML e CSS em tempo real</a><br>
+                <input type="radio" id="alter" name="p9" value="c" class="pergunta"><a id="a">JavaScript não suporta programação orientada a objetos</a>
+
+                <h2 class="pergunta10" id="aT">10. Qual é a importância do JavaScript para o desenvolvimento web? <link>?</h2>
+                <input type="radio" id="alter" name="p10" value="a" class="pergunta"><a id="a">É essencial para a criação de páginas web interativas e aplicativos web</a><br>
+                <input type="radio" id="alter" name="p10" value="b" class="pergunta"><a id="a">É apenas uma linguagem secundária usada para pequenos efeitos visuais</a><br>
+                <input type="radio" id="alter" name="p10" value="c" class="pergunta"><a id="a">É obsoleto e não é mais usado pelos desenvolvedores web.</a><br><br><br>
+
+                <input type="submit" value="Enviar Respostas" id="testeButton">
+ 
+    </form>
+    </section>
+
+    <footer id="footerTeste">
+        <img src="../img/LogoW.png" id="logoFooter">
+        <a href="https://www.instagram.com/g4briel_far/"><img src="../img/insta.png" id="instaF"></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMhsLwKPdSgtDpMFBgZQVNcdWQKzGtkPPkcXHCjlrcXljXqwKRQLwpllzZztnTLLqGzsvV"><img src="../img/gmail.png" id="gmailF"></a>
+        <a href="https://github.com/devbiel12"><img src="../img/git.png" id="gitF"></a>
+        <p id="textFooter">©Gabriel Araújo 2023</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>

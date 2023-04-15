@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="shortcut icon" href="../img/LogoB.ico" type="image/x-icon">
+    <title>Área de Conteudos</title>
+</head>
+<body  id="home">
+    <aside id="aside">
+        <img src="../img/LogoW.png" id="logo">
+        <nav id="menu">
+            
+            <ul>
+              <li><a href="../index.php">Home</a></li>
+              <li>
+                <a href="../html/conteudos.html">Conteudos</a>
+                <ul>
+                  <li><a href="../html/htmlC.html">HTML5</a></li>
+                  <li><a href="../html/cssC.html">CSS3</a></li>
+                  <li><a href="../html/phpC.html">PHP</a></li>
+                  <li><a href="../html/jsC.html">Javascript</a></li>
+                </ul>
+              </li>
+              <li><a href="../html/teste.html">Testes</a></li>
+              <li><a href="#Footer" onclick="descerFooter()">Contato</a></li>
+              <li><a href="../php/perfil.php" id="cadastro">Perfil</a></li>
+              <li><a href="../php/sair.php">Sair</a></li>
+            </ul>
+          </nav>
+          
+        <h1 id="tAConteudo">Dando os primeiros Passos</h1>
+        <p id="pAConteudo">Há 4 conteudos com breves explicações sobre as linguagens indicadas junto de algumas recomendações de cursos sobre elas! Vamos estudar?</p>
+    </aside>
+
+    <section id="corpoSite">
+        <h1 id="titleConteudo">Escolha a linguagem a qual deseja estudar</h1>
+        <div id="cardHtml">
+            <div class="front"> <img src="../img/html.png" id="imgHtml"> </div>
+            <div class="back"><p id="textHtml">HTML é uma linguagem de marcação usada para criar páginas web, definindo a estrutura e conteúdo de uma página através de elementos como cabeçalhos, parágrafos e imagens. Ele é a base de qualquer site e funciona em conjunto com outras tecnologias, como CSS e JavaScript.</p></div>
+        </div> 
+        <a href="htmlC.html"><input type="button" id="buttonHtml" value="Estudar HTML5"></a>
+
+
+        <div id="cardCss">
+            <div class="front"> <img src="../img/css.png" id="imgCss"> </div>
+            <div class="back"><p id="textCss">CSS é uma linguagem de estilo usada para definir a apresentação visual de páginas web, incluindo cores, fontes, tamanhos e posicionamento de elementos HTML. Ele trabalha em conjunto com HTML e JavaScript para criar sites atraentes e responsivos.</p></div>
+            
+        </div>
+        <a href="cssC.html"><input type="button" id="buttonCss" value="Estudar CSS3"></a>
+
+        <div id="cardPhp">
+            <div class="front"> <img src="../img/php.png" id="imgPhp"> </div>
+            <div class="back"><p id="textPhp">PHP é uma linguagem de programação usada principalmente para criar sites dinâmicos e interativos. Ele permite a criação de páginas web dinâmicas, interação com bancos de dados e criação de formulários de contato.</p></div>
+        </div>
+        <a href="phpC.html"><input type="button" id="buttonPhp" value="Estudar PHP"></a>
+
+        <div id="cardJs">
+            <div class="front"> <img src="../img/javascript.png" id="imgJs"> </div>
+            <div class="back"><p id="textJs">JavaScript é uma linguagem de programação usada para adicionar interatividade e dinamismo às páginas web, respondendo a eventos como cliques e movimentos do cursor. Ele permite a criação de soluções personalizadas e interações complexas com os usuários.</p></div>
+        </div>
+        <a href="jsC.html"><input type="button" id="buttonJs" value="Estudar JS"></a>
+
+    </section>
+    <footer>
+        <img src="../img/LogoW.png" id="logoFooter">
+        <a href="https://www.instagram.com/g4briel_far/"><img src="../img/insta.png" id="instaF"></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMhsLwKPdSgtDpMFBgZQVNcdWQKzGtkPPkcXHCjlrcXljXqwKRQLwpllzZztnTLLqGzsvV"><img src="../img/gmail.png" id="gmailF"></a>
+        <a href="https://github.com/devbiel12"><img src="../img/git.png" id="gitF"></a>
+        <p id="textFooter">©Gabriel Araújo 2023</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>

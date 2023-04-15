@@ -1,0 +1,63 @@
+1. O que é PHP?
+a) Uma linguagem de programação para criar aplicativos desktop.
+b) Uma linguagem de programação para criar aplicativos mobile.
+c) Uma linguagem de programação para criar aplicativos web dinâmicos e interativos.
+
+2. Quando o PHP foi criado?
+a) Em 1992.
+b) Em 1994.
+c) Em 1996.
+
+3. Qual é a sintaxe do PHP semelhante a?
+a) C e Python.
+b) C e Perl.
+c) Java e Ruby.
+
+4. O que o PHP permite criar em uma página da web?
+a) Páginas estáticas.
+b) Páginas interativas.
+c) Páginas somente de texto.
+
+5. Com quais bancos de dados o PHP é compatível?
+a) MySQL, Oracle e SQL Server.
+b) MySQL, Oracle e PostgreSQL.
+c) MySQL, SQL Server e MongoDB.
+
+6. O que torna o PHP altamente personalizável e escalável?
+a) A sintaxe semelhante a Perl.
+b) A compatibilidade com vários bancos de dados.
+c) A possibilidade de criar funções e bibliotecas personalizadas.
+
+7. Quais tecnologias podem ser usadas com o PHP para criar aplicativos web ricos em recursos?
+a) HTML, CSS e JavaScript.
+b) HTML, CSS e Python.
+c) HTML, CSS e Ruby.
+
+8. O que é necessário para usar o PHP em um servidor?
+a) Um ambiente de desenvolvimento integrado (IDE).
+b) Um editor de texto.
+c) Um servidor web que suporte PHP.
+
+9. Qual é o papel de um IDE ou editor de texto no desenvolvimento em PHP?
+a) Verificar a sintaxe do código PHP.
+b) Depurar o código PHP.
+c) Ambas as opções acima.
+
+10. O que os recursos disponíveis online para aprender PHP incluem?
+a) Tutoriais, cursos e documentação oficial.
+b) Tutoriais e cursos.
+c) Cursos e livros didáticos.
+
+
+Gabarito
+
+1. c
+2. b
+3. b
+4. b
+5. b
+6. c
+7. a
+8. c
+9. c
+10. a

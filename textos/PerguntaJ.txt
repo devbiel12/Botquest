@@ -1,0 +1,64 @@
+1. Qual é a principal característica do JavaScript?
+a) Capacidade de manipular o HTML e o CSS em tempo real
+b) Ser executado apenas no lado do servidor
+c) Criar aplicativos móveis nativos
+
+2. O que é possível desenvolver usando JavaScript?
+a) Efeitos visuais e animações
+b) Banco de dados relacionais
+c) Sistemas operacionais
+
+3. O que significa o fato de o JavaScript ser uma linguagem baseada em eventos?
+a) Ele pode responder a ações do usuário, como clique de botões e rolagem da página
+b) Ele só pode ser executado em plataformas específicas
+c) Ele é uma linguagem de programação baseada em hardware
+
+4. Em que plataformas o JavaScript é executado?
+a) Desktops, dispositivos móveis e navegadores
+b) Apenas em desktops
+c) Apenas em dispositivos móveis
+
+5. O que é possível comunicar usando JavaScript?
+a) Servidores, permitindo a atualização de informações sem a necessidade de recarregar a página inteira
+b) Apenas com outros scripts JavaScript
+c) Apenas com servidores locais
+
+6. O que é o Node.js?
+a) Um ambiente de tempo de execução JavaScript do lado do servidor
+b) Um editor de texto para JavaScript
+c) Um framework para desenvolvimento de jogos em JavaScript
+
+7. O que é uma biblioteca em JavaScript?
+a) Um conjunto de funções pré-escritas para facilitar o desenvolvimento
+b) Um arquivo de configuração de servidor
+c) Um conjunto de modelos para criar páginas web
+
+8. Qual é a importância da comunidade de JavaScript?
+a) Contribui com bibliotecas e frameworks para tornar o desenvolvimento mais fácil e eficiente
+b) Limita o desenvolvimento de novas tecnologias
+c) Torna o JavaScript obsoleto em relação a outras linguagens de programação
+
+9. Qual é a diferença entre JavaScript e outras linguagens de programação?
+a) JavaScript é executado no lado do cliente, enquanto outras linguagens podem ser executadas tanto no lado do cliente quanto no lado do servidor
+b) JavaScript é a única linguagem que permite manipular HTML e CSS em tempo real
+c) JavaScript não suporta programação orientada a objetos
+
+10. Qual é a importância do JavaScript para o desenvolvimento web?
+a) É essencial para a criação de páginas web interativas e aplicativos web
+b) É apenas uma linguagem secundária usada para pequenos efeitos visuais
+c) É obsoleto e não é mais usado pelos desenvolvedores web.
+
+
+
+Gabarito
+
+1. a
+2. a
+3. a
+4. a
+5. a
+6. a
+7. a
+8. a
+9. a
+10. a

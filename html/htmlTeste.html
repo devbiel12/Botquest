@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="shortcut icon" href="../img/LogoB.ico" type="image/x-icon">
+    <title>Teste de HTML5</title>
+</head>
+<body  id="home">
+    <aside id="aside">
+        <img src="../img/LogoW.png" id="logo">
+        <nav id="menu">
+            
+            <ul>
+              <li><a href="../index.php">Home</a></li>
+              <li>
+                <a href="../html/conteudos.html">Conteudos</a>
+                <ul>
+                  <li><a href="../html/htmlC.html">HTML5</a></li>
+                  <li><a href="../html/cssC.html">CSS3</a></li>
+                  <li><a href="../html/phpC.html">PHP</a></li>
+                  <li><a href="../html/jsC.html">Javascript</a></li>
+                </ul>
+              </li>
+              <li><a href="../html/teste.html">Testes</a></li>
+              <li><a href="#Footer" onclick="descerFooter()">Contato</a></li>
+              <li><a href="../php/perfil.php" id="cadastro">Perfil</a></li>
+              <li><a href="../php/sair.php">Sair</a></li>
+            </ul>
+          </nav>
+          
+        <h1 id="tAConteudo">Teste seu conhecimento em HTML5</h1>
+        <p id="pAConteudo">Tendo lido o conteudo e entendido ele, agora você irá testar seu conhecimento nessa linguagem. Abaixo haverão 10 perguntas sobre o texto de HTML5, com 3 alternativas cada e somente uma correta. Boa sorte!</p>
+    </aside>
+
+    <h1 id="titleHtml">Teste de HTML5</h1>
+    <section id="corpoTeste">
+            <form action="../php/salvar_html.php" method="POST">
+                <h2 class="pergunta1" id="aT">1. O que é HTML?</h2>
+                <input type="radio" id="alter" name="p1" value="a"><a id="a">Uma linguagem de programação</a> <br>
+                <input type="radio" id="alter" name="p1" value="b"><a id="a">Uma linguagem de marcação<br></a>
+                <input type="radio" id="alter" name="p1" value="c"><a id="a">Uma linguagem de banco de dados</a>
+
+                <h2 class="pergunta2" id="aT">2. Qual é a estrutura básica de um documento HTML?</h2>
+                <input type="radio" id="alter" name="p2" value="a" class="pergunta"><a id="a">Uma série de comandos</a><br>
+                <input type="radio" id="alter" name="p2" value="b" class="pergunta"><a id="a">Uma série de tags</a><br>
+                <input type="radio" id="alter" name="p2" value="c" class="pergunta"><a id="a">Uma série de variáveis</a>
+
+                <h2 class="pergunta3" id="aT">3. Qual é a tag usada para indicar o início do documento HTML?</h2>
+                <input type="radio" id="alter" name="p3" value="a" class="pergunta"><a id="a">html</a><br>
+                <input type="radio" id="alter" name="p3" value="b" class="pergunta"><a id="a">body</a><br>
+                <input type="radio" id="alter" name="p3" value="c" class="pergunta"><a id="a">head</a>
+
+                <h2 class="pergunta4" id="aT">4. Qual é a tag usada para o conteúdo principal da página?</h2>
+                <input type="radio" id="alter" name="p4" value="a" class="pergunta"><a id="a">head</a><br>
+                <input type="radio" id="alter" name="p4" value="b" class="pergunta"><a id="a">body</a><br>
+                <input type="radio" id="alter" name="p4" value="c" class="pergunta"><a id="a">div</a>
+
+                <h2 class="pergunta5" id="aT">5. Qual é a tag usada para criar um link?</h2>
+                <input type="radio" id="alter" name="p5" value="a" class="pergunta"><a id="a">a</a><br>
+                <input type="radio" id="alter" name="p5" value="b" class="pergunta"><a id="a">link</a><br>
+                <input type="radio" id="alter" name="p5" value="c" class="pergunta"><a id="a">href</a>
+
+                <h2 class="pergunta6" id="aT">6. Qual é a tag usada para criar um parágrafo?</h2>
+                <input type="radio" id="alter" name="p6" value="a" class="pergunta"><a id="a">p</a><br>
+                <input type="radio" id="alter" name="p6" value="b" class="pergunta"><a id="a">h1</a><br>
+                <input type="radio" id="alter" name="p6" value="c" class="pergunta"><a id="a">strong</a>
+
+                <h2 class="pergunta7" id="aT">7. O que são boas práticas de codificação em HTML?</h2>
+                <input type="radio" id="alter" name="p7" value="a" class="pergunta"><a id="a">Usar tags semânticas</a><br>
+                <input type="radio" id="alter" name="p7" value="b" class="pergunta"><a id="a">Usar muitos comentários no código</a><br>
+                <input type="radio" id="alter" name="p7" value="c" class="pergunta"><a id="a">Usar muitas tags desnecessárias</a>
+
+                <h2 class="pergunta8" id="aT">8. Por que é importante testar uma página HTML em diferentes navegadores e dispositivos?</h2>
+                <input type="radio" id="alter" name="p8" value="a" class="pergunta"><a id="a">Para garantir que a página seja exibida corretamente</a><br>
+                <input type="radio" id="alter" name="p8" value="b" class="pergunta"><a id="a">Para verificar se o código está funcionando corretamente</a><br>
+                <input type="radio" id="alter" name="p8" value="c" class="pergunta"><a id="a">Para testar a velocidade de carregamento da página</a>
+
+                <h2 class="pergunta9" id="aT">9. Qual é a principal função das tags semânticas em HTML?</h2>
+                <input type="radio" id="alter" name="p9" value="a" class="pergunta"><a id="a">Tornar o conteúdo mais acessível e legível para os usuários e os motores de busca</a><br>
+                <input type="radio" id="alter" name="p9" value="b" class="pergunta"><a id="a">Adicionar efeitos visuais à página</a><br>
+                <input type="radio" id="alter" name="p9" value="c" class="pergunta"><a id="a">Reduzir o tamanho do arquivo HTML</a>
+
+                <h2 class="pergunta10" id="aT">10. É fácil para os desenvolvedores iniciantes aprenderem HTML?</h2>
+                <input type="radio" id="alter" name="p10" value="a" class="pergunta"><a id="a">Sim, é fácil</a><br>
+                <input type="radio" id="alter" name="p10" value="b" class="pergunta"><a id="a">Não, é difícil</a><br>
+                <input type="radio" id="alter" name="p10" value="c" class="pergunta"><a id="a">Depende do conhecimento prévio do desenvolvedor</a><br><br><br>
+
+                <input type="submit" value="Enviar Respostas" id="testeButton">
+ 
+    </form>
+    </section>
+
+    <footer id="footerTeste">
+        <img src="../img/LogoW.png" id="logoFooter">
+        <a href="https://www.instagram.com/g4briel_far/"><img src="../img/insta.png" id="instaF"></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMhsLwKPdSgtDpMFBgZQVNcdWQKzGtkPPkcXHCjlrcXljXqwKRQLwpllzZztnTLLqGzsvV"><img src="../img/gmail.png" id="gmailF"></a>
+        <a href="https://github.com/devbiel12"><img src="../img/git.png" id="gitF"></a>
+        <p id="textFooter">©Gabriel Araújo 2023</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>

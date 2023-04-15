@@ -1,0 +1,1960 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: #393053;
+    font-family: 'Montserrat';
+}
+
+/*corpo do site */
+
+#logo{
+    position: fixed;
+    width: 229px;
+    height: 213px;
+    left: -15px;
+    top: -28px;
+}
+#aside{
+    background-image: url(../img/aside.png);
+    background-size: 100% ;
+    position: absolute;
+    width: 100%;
+    height: 734px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    background-repeat:no-repeat;
+}
+#menu {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+#menu ul {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0;
+    font-weight: 835;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #menu ul {
+    font-size: 17px;
+    position: absolute;
+    width: 135px;
+    height: 96px;
+    left: 60%;
+    top: -1px;
+  }
+  
+  #menu ul li {
+    display: inline;
+    position: relative;
+  }
+  
+  #menu ul li a {
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    transition: background .3s;
+  }
+  
+  #menu ul li a:hover {
+    background-color: rgb(85, 54, 105);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  #cadastro {
+    background: #635985;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  /*sub menu*/
+  #menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    height: 180px;
+  }
+  
+  #menu ul li:hover ul {
+    display: block;
+  }
+  
+  #menu ul ul {
+    margin-top: 60px;
+    width: 180px;
+  }
+  
+  #menu ul ul li a {
+    display: block;
+  }
+/*menu*/
+#tAside{
+    position: absolute;
+    width: 768px;
+    height: 96px;
+    left: 175px;
+    top: 225px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#pAside{
+    position: absolute;
+    width: 451px;
+    height: 33px;
+    left: 175px;
+    top: 290px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#buttonCadastrar{
+    position: absolute;
+    width: 216px;
+    height: 49px;
+    left: 175px;
+    top: 370px;
+    background: #635985;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    transition: background .2s;
+    
+}
+#buttonCadastrar:hover{
+    background-color: rgb(85, 54, 105);
+}
+#titleHome{
+    position: absolute;
+    width: 528px;
+    height: 57px;
+    left: 41%;
+    top: 765px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#textCorpo{
+    position: absolute;
+    width: 720px;
+    height: 294px;
+    left: 10%;
+    top: 1100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#imgDiv{
+    position: absolute;
+    width: 740px;
+    height: 520px;
+    left: 52%;
+    top: 1010px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 1720px;
+    background: #18122B;
+    position: absolute;
+}
+#logoFooter{
+    position: absolute;
+    width: 219px;
+    height: 219px;
+    left: 810px;
+    top:-25px;
+}
+#instaF{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 790px;
+    top: 137px;
+}
+#gmailF{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 885px;
+    top: 137px;
+}
+#gitF{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 980px;
+    top: 135px;
+}
+#textFooter{
+    position: absolute;
+    width: 185px;
+    height: 29px;
+    left: 830px;
+    top:200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*cadastro.html*/
+#homeCadastro{
+  background-image:url(../img/fundoCadastro.png);
+  background-size:100% 1280px;
+  background-repeat: no-repeat;
+}
+#footerCad{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 1220px;
+  background: #18122B;
+
+}
+#sectionCad{
+  position: absolute;
+  width: 45%;
+  height: 65%;
+  left: 27%;
+  top: 250px;
+  background: #393053;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  color:white
+}
+
+#titleCad{
+  position: absolute;
+  width: 430px;
+  height: 50px;
+  left: 220px;
+  top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#nome{
+  position: absolute;
+  width: 94px;
+  height: 38px;
+  left: 165px;
+  top: 105px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#nomeT{
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 255px;
+  top: 125px;
+  background: #000000;
+  border-radius: 10px;
+  color:#ffffff;
+}
+#usuario{
+  position: absolute;
+  width: 94px;
+  height: 38px;
+  left: 155px;
+  top: 205px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#usuarioT{
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 255px;
+  top: 225px;
+  background: #000000;
+  border-radius: 10px;
+  color:#ffffff;
+}
+#email{
+  position: absolute;
+  width: 94px;
+  height: 38px;
+  left: 175px;
+  top: 305px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#emailT{
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 255px;
+  top: 325px;
+  background: #000000;
+  border-radius: 10px;
+  color:#ffffff;
+}
+#senha{
+  position: absolute;
+  width: 94px;
+  height: 38px;
+  left: 175px;
+  top: 405px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#senhaT{
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 255px;
+  top: 425px;
+  background: #000000;
+  border-radius: 10px;
+  color:#ffffff;
+}
+#butCad{
+  position: absolute;
+  width: 213px;
+  height: 49px;
+  left: 325px;
+  top: 525px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transition: background .2s;
+}
+#butCad:hover{
+  background-color: rgb(85, 54, 105);
+}
+
+/*login.html*/
+
+#homeLogin{
+  background-image:url(../img/fundoCadastro.png);
+  background-size:100% 1080px;
+  background-repeat: no-repeat;
+}
+#sectionLog{
+  position: absolute;
+  width: 45%;
+  height: 45%;
+  left: 27%;
+  top: 250px;
+  background: #393053;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  color:white
+}
+#titleLog{
+  position: absolute;
+  width: 430px;
+  height: 50px;
+  left: 240px;
+  top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#nomeUsuario{
+  position: absolute;
+  width: 195px;
+  height: 38px;
+  left: 95px;
+  top: 105px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#nomeTL{
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 305px;
+  top: 125px;
+  background: #000000;
+  border-radius: 10px;
+  color:#ffffff;
+}
+#senhaLog{
+  position: absolute;
+  width: 94px;
+  height: 38px;
+  left: 220px;
+  top: 205px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#senhaTL{
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 305px;
+  top: 225px;
+  background: #000000;
+  border-radius: 10px;
+  color:#ffffff;
+}
+#butLog{
+  position: absolute;
+  width: 213px;
+  height: 49px;
+  left: 325px;
+  top: 325px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transition: background .2s;
+}
+#butLog:hover{
+  background-color: rgb(85, 54, 105);
+}
+#footerLog{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 1020px;
+  background: #18122B;
+}
+
+/*index.php*/
+#buttonVC{
+  position: absolute;
+  width: 216px;
+  height: 49px;
+  left: 175px;
+  top: 370px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transition: background .2s;
+    
+}
+#buttonVC:hover{
+    background-color: rgb(85, 54, 105);
+}
+
+
+/*conteudo.html*/
+#tAConteudo{
+  position: absolute;
+  width: 768px;
+  height: 96px;
+  left: 175px;
+  top: 275px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#pAConteudo{
+  position: absolute;
+  width: 600px;
+  height: 40px;
+  left: 175px;
+  top: 340px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#titleConteudo{
+  position: absolute;
+  width: 528px;
+  height: 57px;
+  left: 35%;
+  top: 765px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*html*/
+#cardHtml{
+  position: relative;
+  perspective: 1000px;
+  width: 220px;
+  height: 314px;
+  left: 275px;
+  top: 1020px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+#imgHtml{
+  position: absolute;
+  width: 162px;
+  height: 192px;
+  left: 35px;
+  top:55px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+#textHtml{
+  position: absolute;
+  width: 190px;
+  height: 270px;
+  left:15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+.front,.back{
+  position: absolute;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+.front{
+  transform: rotateY(0deg);
+}
+.back{
+  transform: rotateY(180deg);
+}
+#cardHtml:hover .front{
+  transform: rotateY(-180deg);
+}
+#cardHtml:hover .back{
+  transform: rotateY(0deg);
+}
+#buttonHtml{
+  position: absolute;
+  width: 220px;
+  height: 55px;
+  left: 275px;
+  top: 1400px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transition: background .2s;
+}
+#buttonHtml:hover{
+  background-color: rgb(85, 54, 105);
+}
+
+/*css*/
+#cardCss{
+  position: relative;
+  perspective: 1000px;
+  width: 220px;
+  height: 314px;
+  left: 625px;
+  top: 705px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+#imgCss{
+  position: absolute;
+  width: 162px;
+  height: 192px;
+  left: 35px;
+  top:55px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+#textCss{
+  position: absolute;
+  width: 190px;
+  height: 270px;
+  left:15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+.front,.back{
+  position: absolute;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+.front{
+  transform: rotateY(0deg);
+}
+.back{
+  transform: rotateY(180deg);
+}
+#cardCss:hover .front{
+  transform: rotateY(-180deg);
+}
+#cardCss:hover .back{
+  transform: rotateY(0deg);
+}
+#buttonCss{
+  position: absolute;
+  width: 220px;
+  height: 55px;
+  left: 625px;
+  top: 1400px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transition: background .2s;
+}
+#buttonCss:hover{
+  background-color: rgb(85, 54, 105);
+}
+
+/*php*/
+#cardPhp{
+  position: relative;
+  perspective: 1000px;
+  width: 220px;
+  height: 314px;
+  left: 975px;
+  top: 390px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+#imgPhp{
+  position: absolute;
+  width: 192px;
+  height: 103px;
+  left: 15px;
+  top:95px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+#textPhp{
+  position: absolute;
+  width: 190px;
+  height: 270px;
+  left:15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+.front,.back{
+  position: absolute;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+.front{
+  transform: rotateY(0deg);
+}
+.back{
+  transform: rotateY(180deg);
+}
+#cardPhp:hover .front{
+  transform: rotateY(-180deg);
+}
+#cardPhp:hover .back{
+  transform: rotateY(0deg);
+}
+#buttonPhp{
+  position: absolute;
+  width: 220px;
+  height: 55px;
+  left: 975px;
+  top: 1400px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transition: background .2s;
+}
+#buttonPhp:hover{
+  background-color: rgb(85, 54, 105);
+}
+
+/*javascript*/
+#cardJs{
+  position: relative;
+  perspective: 1000px;
+  width: 220px;
+  height: 314px;
+  left: 1325px;
+  top: 75px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+#imgJs{
+  position: absolute;
+  width: 162px;
+  height: 192px;
+  left: 35px;
+  top:55px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+#textJs{
+  position: absolute;
+  width: 190px;
+  height: 270px;
+  left:15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+.front,.back{
+  position: absolute;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+.front{
+  transform: rotateY(0deg);
+}
+.back{
+  transform: rotateY(180deg);
+}
+#cardJs:hover .front{
+  transform: rotateY(-180deg);
+}
+#cardJs:hover .back{
+  transform: rotateY(0deg);
+}
+#buttonJs{
+  position: absolute;
+  width: 220px;
+  height: 55px;
+  left: 1325px;
+  top: 1400px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transition: background .2s;
+}
+#buttonJs:hover{
+  background-color: rgb(85, 54, 105);
+}
+
+/*htmlConteudo*/
+#titleConteudos{
+  position: absolute;
+  width: 528px;
+  height: 57px;
+  left: 45%;
+  top: 765px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#footerCont{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 2380px;
+  background: #18122B;
+  position: absolute;
+}
+#titleDef{
+  position: absolute;
+  width: 621px;
+  height: 54px;
+  left: 200px;
+  top: 855px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#textDef{
+  position: absolute;
+  width: 688px;
+  height: 220px;
+  left: 200px;
+  top: 915px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#titleUso{
+  position: absolute;
+  width: 621px;
+  height: 54px;
+  left: 200px;
+  top: 1155px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#textUso{
+  position: absolute;
+  width: 688px;
+  height: 220px;
+  left: 200px;
+  top: 1245px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#titleRes{
+  position: absolute;
+  width: 621px;
+  height: 54px;
+  left: 200px;
+  top: 1505px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#textRes{
+  position: absolute;
+  width: 688px;
+  height: 220px;
+  left: 200px;
+  top: 1495px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#exeHtml{
+  position: absolute;
+  width: 428px;
+  height: 711px;
+  left: 1050px;
+  top: 900px;
+  border-radius: 10px;
+}
+#legendaHtml{
+  position: absolute;
+  width: 367px;
+  height: 28px;
+  left: 1075px;
+  top: 1615px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+#titleCursos{
+  position: absolute;
+  width: 528px;
+  height: 57px;
+  left: 45%;
+  top: 1725px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#cardCurso1{
+  position: absolute;
+  width: 220px;
+  height: 262px;
+  left: 200px;
+  top: 1895px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+#curso1img{
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  left: 27px;
+  top:45px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+#textCurso1H{
+  position: absolute;
+  width: 220px;
+  height: 37px;
+  left:20px;
+  top:255px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#cardCurso2{
+  position: absolute;
+  width: 220px;
+  height: 262px;
+  left: 800px;
+  top: 1895px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+#curso2img{
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  left: 27px;
+  top:45px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+#textCurso2H{
+  position: absolute;
+  width: 220px;
+  height: 37px;
+  left:50px;
+  top:255px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#cardCurso3{
+  position: absolute;
+  width: 220px;
+  height: 262px;
+  left: 1450px;
+  top: 1895px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+#curso3img{
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  left: 27px;
+  top:45px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+#textCurso3H{
+  position: absolute;
+  width: 220px;
+  height: 37px;
+  left:27px;
+  top:255px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*css conteudo*/
+#textDefC{
+  position: absolute;
+  width: 709px;
+  height: 78px;
+  left: 200px;
+  top: 895px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#titleUsoC{
+  position: absolute;
+  width: 621px;
+  height: 54px;
+  left: 200px;
+  top: 975px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#textUsoCI{
+  position: absolute;
+  width: 688px;
+  height: 220px;
+  left: 200px;
+  top: 985px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#cssUso{
+  position: absolute;
+  width: 592px;
+  height: 103px;
+  left: 250px;
+  top: 1200px;
+  border-radius: 10px;
+}
+#legenda1Css{
+  position: absolute;
+  width: 367px;
+  height: 28px;
+  left: 410px;
+  top: 1295px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#textUsoCII{
+  position: absolute;
+  width: 713px;
+  height: 156px;
+  left: 200px;
+  top: 1355px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#titleResC{
+  position: absolute;
+  width: 621px;
+  height: 54px;
+  left: 200px;
+  top: 1495px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#exemploHtmlC{
+  position: absolute;
+  width: 428px;
+  height: 261px;
+  left: 1050px;
+  top: 900px;
+  border-radius: 10px;
+}
+#lgHtml{
+  position: absolute;
+  width: 367px;
+  height: 28px;
+  left: 1200px;
+  top: 1150px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#exemploCss{
+  position: absolute;
+  width: 428px;
+  height: 261px;
+  left: 1050px;
+  top: 1200px;
+  border-radius: 10px;
+}
+#lgCss{
+  position: absolute;
+  width: 367px;
+  height: 28px;
+  left: 1210px;
+  top: 1450px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#resolucao{
+  position: absolute;
+  width: 387px;
+  height: 126px;
+  left: 1070px;
+  top: 1500px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+#lgRes{
+  position: absolute;
+  width: 367px;
+  height: 28px;
+  left: 1160px;
+  top: 1610px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#textCurso1C{
+  position: absolute;
+  width: 220px;
+  height: 37px;
+  left:45px;
+  top:255px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#textCurso2C{
+  position: absolute;
+  width: 220px;
+  height: 37px;
+  left:20px;
+  top:255px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#textCurso3C{
+  position: absolute;
+  width: 220px;
+  height: 37px;
+  left:27px;
+  top:255px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+/*php conteudo*/
+#textDefP{
+  position: absolute;
+  width: 688px;
+  height: 220px;
+  left: 200px;
+  top: 900px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#titleUsoP{
+  position: absolute;
+  width: 621px;
+  height: 54px;
+  left: 200px;
+  top: 1125px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#textUsoP{
+  position: absolute;
+  width: 688px;
+  height: 220px;
+  left: 200px;
+  top: 1265px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#titleResP{
+  position: absolute;
+  width: 621px;
+  height: 54px;
+  left: 200px;
+  top: 1540px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#textResP{
+  position: absolute;
+  width: 688px;
+  height: 220px;
+  left: 200px;
+  top: 1545px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#exeHtmlP{
+  position: absolute;
+  width: 428px;
+  height: 365px;
+  left: 1050px;
+  top: 950px;
+  border-radius: 10px;
+}
+#legendaHtmlP{
+  position: absolute;
+  width: 264px;
+  height: 30px;
+  left: 1130px;
+  top: 1310px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#exePhp{
+  position: absolute;
+  width: 428px;
+  height: 240px;
+  left: 1050px;
+  top: 1355px;
+  border-radius: 10px;
+}
+#legendaPhp{
+  position: absolute;
+  width: 264px;
+  height: 30px;
+  left: 1130px;
+  top: 1595px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#textCurso1P{
+  position: absolute;
+  width: 220px;
+  height: 37px;
+  left:27px;
+  top:255px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#textCurso2P{
+  position: absolute;
+  width: 220px;
+  height: 37px;
+  left:45px;
+  top:255px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#textCurso3P{
+  position: absolute;
+  width: 220px;
+  height: 37px;
+  left:20px;
+  top:255px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*javascript conteudo*/
+
+#textDefJ{
+  position: absolute;
+  width: 688px;
+  height: 220px;
+  left: 200px;
+  top: 835px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#titleUsoJ{
+  position: absolute;
+  width: 621px;
+  height: 54px;
+  left: 200px;
+  top: 995px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#textUsoJ{
+  position: absolute;
+  width: 688px;
+  height: 220px;
+  left: 200px;
+  top: 1100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#titleResJ{
+  position: absolute;
+  width: 621px;
+  height: 54px;
+  left: 200px;
+  top: 1375px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#textResJ{
+  position: absolute;
+  width: 688px;
+  height: 220px;
+  left: 200px;
+  top: 1365px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #FFFFFF;
+}
+#exemploJs{
+  position: absolute;
+  width: 428px;
+  height: 711px;
+  left: 1050px;
+  top: 900px;
+  border-radius: 10px;
+}
+#textCurso1J{
+  position: absolute;
+  width: 220px;
+  height: 37px;
+  left:65px;
+  top:255px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#textCurso2J{
+  position: absolute;
+  width: 220px;
+  height: 37px;
+  left:27px;
+  top:255px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#textCurso3J{
+  position: absolute;
+  width: 220px;
+  height: 37px;
+  left:20px;
+  top:255px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*teste*/
+#titleHtml{
+  position: absolute;
+  width: 528px;
+  height: 57px;
+  left: 41%;
+  top: 765px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#corpoTeste{
+  position:absolute;
+  top:850px;
+}
+#alter{
+  margin-left:200px;
+}
+#aT{
+  margin-left: 200px;
+  color:#FFFFFF;
+  margin-top:30px;
+}
+#a{
+  color:#FFFFFF;
+  margin-top:30px;
+  margin-left: 5px;
+}
+#testeButton{
+  position: absolute;
+  width: 260px;
+  height: 49px;
+  left: 780px;
+  top: 1460px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#footerTeste{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 2450px;
+  background: #18122B;
+  position: absolute;
+}
+
+/*salvarhtml*/
+#titleResultados{
+  position: absolute;
+  width: 528px;
+  height: 57px;
+  left: 42%;
+  top: 765px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#ResultadoTeste{
+  position:absolute;
+  top:10px;
+  width:500px;
+  height:650px;
+  left:655px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background-color:#635985;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#footerResultados{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 1620px;
+    background: #18122B;
+    position: absolute;
+}
+
+/*cssTeste*/
+#titleCss{
+  position: absolute;
+  width: 528px;
+  height: 57px;
+  left: 42%;
+  top: 765px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*loginadmin*/
+#sectionAdmin{
+  position: absolute;
+  width: 40%;
+  height: 45%;
+  left: 30%;
+  top: 250px;
+  background: #393053;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  color:white
+}
+#titleAdmin{
+  position: absolute;
+  width: 430px;
+  height: 50px;
+  left: 290px;
+  top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#usuarioAdmin{
+  position: absolute;
+  width: 195px;
+  height: 38px;
+  left: 165px;
+  top: 105px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#usuarioAT{
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 265px;
+  top: 125px;
+  background: #000000;
+  border-radius: 10px;
+  color:#ffffff;
+}
+#senhaAdmin{
+  position: absolute;
+  width: 94px;
+  height: 38px;
+  left: 175px;
+  top: 205px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#senhaAT{
+  position: absolute;
+  width: 400px;
+  height: 45px;
+  left: 265px;
+  top: 225px;
+  background: #000000;
+  border-radius: 10px;
+  color:#ffffff;
+}
+#butLogar{
+  position: absolute;
+  width: 213px;
+  height: 49px;
+  left: 280px;
+  top: 325px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transition: background .2s;
+}
+#tableUsuario{
+  position: absolute;
+  top:500px;
+  color:#FFFFFF;
+  background-color: #635985;
+  left: 330px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*perfil*/
+#sectionPerfil{
+  position: absolute;
+  width: 45%;
+  height: 55%;
+  left: 27%;
+  top: 250px;
+  background: #393053;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  color:white;
+}
+#perfil{
+  position: absolute;
+  width: 430px;
+  height: 50px;
+  left: 42%;
+  top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#dados{
+  position:absolute;
+  left:310px;
+  top:25%;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#fotoPerfil{
+  position: absolute;
+  width: 199px;
+  height: 257px;
+  left: 82px;
+  top: 130px;
+  border-radius: 10px;
+}
+#trocaFoto{
+  position: absolute;
+  width: 213px;
+  height: 49px;
+  left: 75px;
+  top: 405px;
+  background: #635985;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transition: background .2s;
+}
+#trocaFoto:hover{
+  background-color: rgb(85, 54, 105);
+}

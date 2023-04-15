@@ -1,0 +1,68 @@
+1. O que é CSS?
+a) Uma linguagem de programação para criar páginas da web.
+b) Uma linguagem de estilo para adicionar estilos visuais às páginas da web.
+c) Uma linguagem para criar aplicativos móveis.
+
+2. O que as regras CSS consistem?
+a) Uma série de declarações.
+b) Um seletor e um conjunto de declarações.
+c) Um conjunto de propriedades.
+
+3. O que é um seletor em CSS?
+a) Um estilo de fonte.
+b) Uma propriedade visual.
+c) Um identificador que especifica qual elemento HTML a regra deve ser aplicada.
+
+4. Como o CSS pode ser vinculado a uma página HTML?
+a) Usando uma tag <script>.
+b) Usando uma tag <style>.
+c) Usando uma tag <link>.
+
+5. O que as propriedades CSS podem ser usadas para criar?
+a) Animações e transições.
+b) Arquivos de imagem.
+c) Funções matemáticas.
+
+6. O que o CSS permite que os desenvolvedores criem para tornar o layout responsivo?
+a) Imagens interativas.
+b) Animações complexas.
+c) Layouts que se adaptam a diferentes dispositivos e tamanhos de tela.
+
+7. Qual é a vantagem de usar CSS para estilizar páginas da web?
+a) Ele permite que os desenvolvedores criem layouts complexos.
+b) Ele separa o conteúdo da página de sua apresentação visual.
+c) Ele adiciona interatividade à página.
+
+8. Qual é o objetivo principal do CSS?
+a) Fornecer uma linguagem para criar aplicativos web.
+b) Adicionar funcionalidade aos elementos HTML.
+c) Estilizar elementos HTML e controlar a aparência da página.
+
+9. Qual é o benefício de escrever CSS em um arquivo separado?
+a) É mais fácil para os desenvolvedores iniciantes aprenderem.
+b) Torna mais fácil para os desenvolvedores manter e modificar a aparência da página.
+c) Faz com que a página carregue mais lentamente.
+
+10. O que é uma tag <link>?
+a) Uma tag HTML usada para criar links para outras páginas.
+b) Uma tag HTML usada para incluir arquivos de script na página.
+c) Uma tag HTML usada para vincular um arquivo CSS à página.
+
+Gabarito:
+
+1.b
+2.b
+3.c
+4.c
+5.a
+6.c
+7.b
+8.c
+9.b
+10.c
+
+
+
+                    
+
+

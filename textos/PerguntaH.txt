@@ -1,0 +1,63 @@
+1. O que é HTML?
+a) Uma linguagem de programação
+b) Uma linguagem de marcação
+c) Uma linguagem de banco de dados
+
+2. Qual é a estrutura básica de um documento HTML?
+a) Uma série de comandos
+b) Uma série de tags
+c) Uma série de variáveis
+
+3. Qual é a tag usada para indicar o início do documento HTML?
+a) <html>
+b) <body>
+c) <head>
+
+4. Qual é a tag usada para o conteúdo principal da página?
+a) <head>
+b) <body>
+c) <div>
+
+5. Qual é a tag usada para criar um link?
+a) <a>
+b) <link>
+c) <href>
+
+6. Qual é a tag usada para criar um parágrafo?
+a) <p>
+b) <h1>
+c) <strong>
+
+7. O que são boas práticas de codificação em HTML?
+a) Usar tags semânticas
+b) Usar muitos comentários no código
+c) Usar muitas tags desnecessárias
+
+8. Por que é importante testar uma página HTML em diferentes navegadores e dispositivos?
+a) Para garantir que a página seja exibida corretamente
+b) Para verificar se o código está funcionando corretamente
+c) Para testar a velocidade de carregamento da página
+
+9. Qual é a principal função das tags semânticas em HTML?
+a) Tornar o conteúdo mais acessível e legível para os usuários e os motores de busca
+b) Adicionar efeitos visuais à página
+c) Reduzir o tamanho do arquivo HTML
+
+10. É fácil para os desenvolvedores iniciantes aprenderem HTML?
+a) Sim, é fácil
+b) Não, é difícil
+c) Depende do conhecimento prévio do desenvolvedor
+
+
+Gabarito:
+
+b
+b
+a
+b
+a
+a
+a
+a
+a
+a
